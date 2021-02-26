@@ -35,10 +35,7 @@ class MorningHomePageState extends State<MorningHomePage> {
     _listItems[index] = Container(
       height: 0,
     );
-    if (!mounted) {
-      _reset;
-      return;
-    }
+
     setState(() => _listItems = [..._listItems]);
   }
 
@@ -146,7 +143,7 @@ class PageTitle extends StatelessWidget {
           ),
         ),
         padding: EdgeInsets.only(
-          bottom: 10,
+          bottom: 40,
         ),
       ),
     );

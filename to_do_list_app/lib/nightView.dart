@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'morningView.dart';
-import 'dart:developer' as developer;
 
 class NightPage extends StatelessWidget {
   @override
@@ -283,7 +282,7 @@ class PageTitle extends StatelessWidget {
           ),
         ),
         padding: EdgeInsets.only(
-          bottom: 10,
+          bottom: 40,
         ),
       ),
     );
